@@ -45,6 +45,7 @@
   text-align: center;
   padding: 0;
   margin: 0;
+  min-width: 500px;
 }
 
 .navbar li a:hover{
@@ -206,3 +207,37 @@
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+
+/* CSS REMAKE 05/11/2023 */
+
+.gallery-picture {
+  position: relative;
+  padding-bottom: 20px;
+  
+  margin: auto;
+  text-align: center;
+}
+
+.gallery-picture img {
+  width: 1000px;
+}
+
+.home-picture-text {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -65%);
+  font-family: SublimaBold;
+  
+  font-size: 100px;
+}
+
+
+.home-select-hover div:hover{
+  opacity: .8;
+  transition: 0.3s ease;
+
+}
+
